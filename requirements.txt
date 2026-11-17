@@ -13,3 +13,4 @@ yfinance>=0.2.40   # only for scripts/fetch_data.py
 anthropic>=0.70    # only for the agent's --mode llm
 fastapi>=0.110
 uvicorn>=0.30
+python-multipart>=0.0.9   # needed by the approval page forms
