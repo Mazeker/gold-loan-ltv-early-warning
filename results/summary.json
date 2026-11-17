@@ -1,0 +1,56 @@
+{
+  "data": {
+    "first": "2004-01-05",
+    "last": "2026-11-17",
+    "days": 5738,
+    "n_features": 32
+  },
+  "walk_forward_seconds": 27.9,
+  "test_rows": 3677,
+  "test_positive_rate": 0.07478923035082947,
+  "simulate_seconds": 0.23,
+  "loans_total": 1000000,
+  "loans_validation": 348461,
+  "loans_test": 651539,
+  "tuned_rules": {
+    "GARCH": {
+      "tau": 0.2559388645208325,
+      "delta": 0.05,
+      "quantile": 0.5,
+      "val_profit": 233.3180685840897
+    },
+    "RandomForest": {
+      "tau": 0.27915236189718895,
+      "delta": 0.05,
+      "quantile": 0.95,
+      "val_profit": 232.57612390523957
+    },
+    "LightGBM": {
+      "tau": 0.39656462189711217,
+      "delta": 0.05,
+      "quantile": 0.95,
+      "val_profit": 232.58005379919757
+    },
+    "Ensemble": {
+      "tau": 0.286341184283035,
+      "delta": 0.05,
+      "quantile": 0.95,
+      "val_profit": 232.572953972653
+    },
+    "Hybrid": {
+      "tau": 0.35797360529929745,
+      "delta": 0.05,
+      "quantile": 0.95,
+      "val_profit": 232.57736406788376
+    },
+    "Hybrid_graded": {
+      "kappa": 0.05,
+      "max_cut": 0.05,
+      "val_profit": 232.49918783061239
+    }
+  },
+  "static_equal_lending_auctions_Hybrid": 1771.4174160755501,
+  "static_equal_lending_auctions_RandomForest": 1708.729086719942,
+  "static_equal_lending_auctions_GARCH": 1140.1443066911647,
+  "total_seconds": 142.1
+}
